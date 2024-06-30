@@ -516,7 +516,7 @@ const AddNewProject = ({ setNewProject, teamId, teamProject }) => {
           {showAddProject && (
             <>
               <Label>Project Details :</Label>
-              <ImageSelector inputs={inputs} setInputs={setInputs} style={{ marginTop: "12px" }}/>
+              <ImageSelector inputs={inputs} setInputs={setInputs} placeholder="Please upload file less than 1 mb than only it will work " style={{ marginTop: "12px" }}/>
               <OutlinedBox style={{ marginTop: "12px" }}>
                 <TextInput
                   placeholder="Title (Required)*"
