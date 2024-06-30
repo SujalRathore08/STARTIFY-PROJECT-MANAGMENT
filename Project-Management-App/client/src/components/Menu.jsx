@@ -28,6 +28,7 @@ import { getUsers, notifications } from "../api/index";
 import { useNavigate } from 'react-router-dom';
 import { Avatar, CircularProgress } from "@mui/material";
 import Skeleton from "@mui/material/Skeleton";
+import statify_logo from "../Images/s.png"
 
 const Container = styled.div`
   flex: 1.3;
@@ -155,8 +156,8 @@ const Menu = ({ darkMode, setDarkMode, setMenuOpen, setNewTeam }) => {
       <Flex>
         <Link to="/" style={{ textDecoration: "none", color: "inherit", alignItems: 'center',display: 'flex' }}>
           <Logo>
-            <Image src={LogoIcon} />
-            VEXA
+            <Image src={statify_logo} />
+            STARTIFY
           </Logo>
         </Link>
         <Close>
