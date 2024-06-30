@@ -55,7 +55,7 @@ const TeamContainer = styled.div`
 
 const Team = () => {
   const member = [{
-    photo: "https://ibb.co/mRMr95K",
+    photo:"https://avatars.githubusercontent.com/u/120947303?v=4",
     name: "Sujal Rathore",
     title: "Full-Stack Developer",
     bio: "I have expertise in full-stack web development, Android app development, and MERN stack development. I am knowledgeable in various programming languages, frameworks, and technologies and strive to create high-quality, user-friendly applications."
@@ -69,6 +69,7 @@ const Team = () => {
           <TeamMember key={index} photo={member.photo} name={member.name} title={member.title} bio={member.bio} />
         ))}
       </TeamContainer>
+      
 
     </TeamWrapper>
   );
